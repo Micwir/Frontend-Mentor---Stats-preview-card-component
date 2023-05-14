@@ -1,4 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
+body {
+    margin-top: 4rem;
+    background-color: hsl(233, 47%, 7%);
+
+}
+
+body p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+body h1 {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+main {
+    background-color: hsl(244, 38%, 16%);
+    text-align: center;
+    inset: 0;
+    margin: auto 1rem;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.image-container {
+
+    position: relative;
+    background-color: hsl(277, 64%, 61%);
+    width: 100%;
+    height: 263px;
+    overflow: hidden;
+    max-width: 359px;
+    margin: auto;
+}
+
+.image-container::before {
+    content: "";
+    background-image: url("../images/image-header-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.description > article {
+    margin: 2rem 2rem 0 2rem;
+}
+
+.description > article > h1 {
+    margin: 0;
+    font-size: 28px;
+
+}
+
+.description > article > h1 > strong {
+    color: hsl(277, 64%, 61%);
+}
+
+.statistics > div {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+.statistics > div:last-of-type {
+    padding-bottom: 1.5rem;
+}
+
+.statistics h1 {
+    margin: 0;
+}
+
+.statistics p {
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 12px;
+}
 
 .attribution {
     font-size: 11px; text-align: center;
